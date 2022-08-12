@@ -1,0 +1,19 @@
+#server:
+#  port: 9090
+#
+#spring:
+#  datasource:
+#    driver-class-name:com.mysql.jdbc.Driver
+#    username: root
+#    url: jdbc:mysql://localhost:3306/keycloak?serverTimeZone=UTC
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#
+#keycloak:
+#  realm: codewithcup
+#  auth-server-url: http://localhost:8080
+#  resource: springboot-keyloak
+#  public-client: true
+#  bearer-only: true
